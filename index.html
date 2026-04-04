@@ -50,36 +50,41 @@
         </div>
     </nav>
 
-    <!-- HERO CAROUSEL -->
-    <section id="inicio" class="relative h-screen overflow-hidden">
-        <div id="carousel" class="relative h-full">
-            <img src="images/carrusel1.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000" alt="Cairndow Stagecoach Inn">
-            <img src="images/carrusel2.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Garden view">
-            <img src="images/carrusel3.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Garden view">
-            <img src="images/carrusel4.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Garden view">
-            <img src="images/carrusel5.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Balcony view">
-            <img src="images/carrusel6.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Interior">
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-b from-[#001f3f]/70 via-[#001f3f]/40 to-[#001f3f]/70 flex items-center">
-            <div class="max-w-screen-2xl mx-auto px-8 text-center w-full">
-                <h1 class="text-5xl md:text-7xl font-semibold tracking-tight mb-6 text-white">Welcome to Cairndow Stagecoach Inn</h1>
-                <p class="text-2xl md:text-3xl max-w-xl mx-auto mb-8 text-white">Rest, enjoy and live a unique experience.</p>
-                
-                <!-- AVISO PROMOCIONAL MOVIDO AQUÍ -->
-                <div class="max-w-2xl mx-auto mb-12 bg-blue-50 border border-blue-200 rounded-3xl p-6 text-center">
-                    <p class="text-blue-800 font-medium">
-                        Book directly on our website and save money.<br>
-                        It is cheaper than Booking.com or any other app.<br>
-                        Cash payment is preferred (no card machine fees).
-                    </p>
-                </div>
+<!-- HERO CAROUSEL (versión corregida para móvil) -->
+<section id="inicio" class="relative min-h-screen overflow-hidden">
+    <div id="carousel" class="relative h-full">
+        <img src="images/carrusel1.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000" alt="Cairndow Stagecoach Inn">
+        <img src="images/carrusel2.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Garden view">
+        <img src="images/carrusel3.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Garden view">
+        <img src="images/carrusel4.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Garden view">
+        <img src="images/carrusel5.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Balcony view">
+        <img src="images/carrusel6.jpg" class="carousel-slide absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0" alt="Interior">
+    </div>
 
-                <a href="#rooms" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 px-10 py-5 rounded-3xl text-xl font-medium transition-all text-white">
-                    View Rooms <i class="fas fa-arrow-right ml-3"></i>
-                </a>
+    <div class="absolute inset-0 bg-gradient-to-b from-[#001f3f]/70 via-[#001f3f]/40 to-[#001f3f]/70 flex items-center">
+        <div class="max-w-screen-2xl mx-auto px-6 md:px-8 text-center w-full pt-12 md:pt-0">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight mb-6 text-white">
+                Welcome to Cairndow Stagecoach Inn
+            </h1>
+            <p class="text-xl md:text-2xl lg:text-3xl max-w-xl mx-auto mb-8 text-white">
+                Rest, enjoy and live a unique experience.
+            </p>
+            
+            <!-- Aviso promocional -->
+            <div class="max-w-2xl mx-auto mb-10 bg-blue-50 border border-blue-200 rounded-3xl p-6 text-center">
+                <p class="text-blue-800 font-medium">
+                    Book directly on our website and save money.<br>
+                    It is cheaper than Booking.com or any other app.<br>
+                    Cash payment is preferred (no card machine fees).
+                </p>
             </div>
+
+            <a href="#rooms" class="inline-flex items-center bg-blue-600 hover:bg-blue-700 px-10 py-5 rounded-3xl text-xl font-medium transition-all text-white">
+                View Rooms <i class="fas fa-arrow-right ml-3"></i>
+            </a>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- ROOMS (sin el aviso promocional) -->
     <section id="rooms" class="py-24 bg-white">
